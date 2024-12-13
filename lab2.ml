@@ -266,7 +266,7 @@ for this lab.
 
 For example,
 
-   # zip [1; 2; 3] [4; 5; 6] ;;
+  fun lst -> zip [1; 2; 3] [4; 5; 6] ;;
    - : (int * int) list = [(1, 4); (2, 5); (3, 6)]
 
 To think about: Why wouldn't it be possible, in cases of mismatched
